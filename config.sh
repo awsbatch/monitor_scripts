@@ -1,0 +1,17 @@
+#export AWS_ACCESS_KEY_ID=""
+#export AWS_SECRET_ACCESS_KEY=""
+export AWS_DEFAULT_REGION="ap-south-1"
+export MONGO_HOST="172.31.25.22"
+export MONGO_PORT="17901" #default mongo port
+export MONGO_USERNAME="botplatformtw" #mongo db user name
+export MONGO_PASSWORD="redhat" #mongo db password
+export MONGO_DATABASE="botplatform" #mongodb name
+export AWS_BUCKET_NAME="surbo-prod-dbs-backup"
+export MYSQL_HOST="172.31.25.22"
+export MYSQL_PORT="6754" # default mysql port number
+export MYSQL_DATABASE="botplatform"
+export MYSQL_USERNAME="root"
+export MYSQL_PASSWORD="mysql"
+export ELASTIC_HOST="172.31.31.151"
+export ELSTIC_PORT="9200"
+export SNAPSHOT_REPOSITORY="s3_repository"
